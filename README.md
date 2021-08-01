@@ -1,2 +1,2 @@
-# soafen.love
-source code for my website, visible at https://soafen.love <3
+# https://soafenlove.bettydreemurr.repl.co
+This is a fork for my website, the real source code is right here -> https://github.com/soafen/soafen.love
