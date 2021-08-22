@@ -7,21 +7,21 @@ html {
   background-image:url('../mii/bg.png');
   background-repeat:no-repeat;
   background-size:cover;
-cursor: url('../img/wiimouse.png'), pointer;
+cursor: url('https://rc24.xyz/images/cursors/wii.cur'), pointer;
 }
 body {
   margin: 0;
-  cursor: url('../img/wiimouse.png'), pointer;
+  cursor: url('https://rc24.xyz/images/cursors/wii.cur'), pointer;
 }
 .logo {
   background: -webkit-linear-gradient(#eee, #333);
 }
 a {
-  cursor: url('../img/wiimouse.png'), pointer;
+  cursor: url('https://rc24.xyz/images/cursors/wii.cur'), pointer;
   text-decoration:none;
   color:black;
 }
 button {
-  cursor: url('../img/wiimouse.png'), pointer;
+  cursor: url('https://rc24.xyz/images/cursors/wii.cur'), pointer;
   font-size:20px;
 }
