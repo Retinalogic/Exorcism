@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-instagram:before {
+  content: "\ea92";
+}
 .icon-tiktok:before {
   content: "\e901";
 }
