@@ -2,7 +2,7 @@
 This is a fork for my website, the real source code is right here -> https://github.com/soafen/soafen.love
 
 
-![image](https://user-images.githubusercontent.com/46537034/133883429-c37a1e41-2b06-4de8-837c-56d5d9d66440.png)
+![image](https://user-images.githubusercontent.com/46537034/134899888-87fda6f2-9392-4dfd-929b-655b2a4d34ca.png)
 
 
 ## [Installation on website Replit.com](https://replit.com/~)
