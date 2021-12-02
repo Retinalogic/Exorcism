@@ -46,3 +46,9 @@
 .icon-envelope:before {
   content: "\f0e0";
 }
+.icon-twitch:before {
+  content: "\f1e8";
+}
+.icon-soundcloud:before {
+  content: "\eac3";
+}
