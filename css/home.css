@@ -1,3 +1,21 @@
+@font-face {
+		font-family: PinkChicken;
+		src: url('../font/PinkChicken-Regular.ttf');
+	}
+a {
+	text-decoration:none;
+	color:#ff2e2e;
+}
+a:hover {
+	color: #ffffff;
+}
+body {
+	margin: 0;
+	background-color: #ffffff;
+	font-family: PinkChicken, "Comic Sans MS", "Comic Sans", "Chalkboard SE", "Comic Neue", cursive;
+}
+
+
 @media (max-width: 999px) {
 	body {
 		font-size: 5vw;
