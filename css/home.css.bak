@@ -7,7 +7,7 @@ a {
 	color:#ff2e2e;
 }
 a:hover {
-	color: white;
+	color: #ffffff;
 }
 body {
 	margin: 0;
