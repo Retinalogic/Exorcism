@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+	<style>
+	html, body {
+		background-color: #1c1c1c;
+	</style>
+</head>
+<body>
+    <div id="app" style="height: 100vh">
+        <!-- Webamp will attempt to center itself within this div -->
+    </div>
+    <script src="https://unpkg.com/webamp@1.4.2/built/webamp.bundle.min.js"></script>
+    <script>
+        const Webamp = window.Webamp;
+        const webamp = new Webamp({
+            initialTracks: [
+                {
+                    metaData: {
+                        artist: "xx",
+                        title: "0330"
+                    },
+                    // NOTE: Your audio file must be served from the same domain as your HTML
+                    // file, or served with permissive CORS HTTP headers:
+                    // https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
+                    url: "https://archive.org/download/koronba-album/koronba_-_-_01_0330.wav",
+                    duration: 131
+                },
+                {
+                    metaData: {
+                        artist: "xx",
+                        title: "0354"
+                    },
+                    url: "https://archive.org/download/koronba-album/koronba_-_-_02_0354.wav",
+                    duration: 199
+                },
+				{
+                    metaData: {
+                        artist: "xx",
+                        title: "0369"
+                    },
+                    url: "https://archive.org/download/koronba-album/koronba_-_-_03_0369.wav",
+                    duration: 238
+                },
+				{
+                    metaData: {
+                        artist: "xx",
+                        title: "0397"
+                    },
+                    url: "https://archive.org/download/koronba-album/koronba_-_-_04_0397.wav",
+                    duration: 152
+                }
+            ],
+        });
+
+        // Returns a promise indicating when it's done loading.
+        webamp.renderWhenReady(document.getElementById('app'));
+    </script>
+</body>
+
+</html>
