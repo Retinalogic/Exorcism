@@ -1,5 +1,5 @@
 @font-face { font-family: PinkChicken; src: url('../font/PinkChicken-Regular.ttf'); }
-body { margin: 0; background-color: #ffcdcc; font-size:24px; font-family: PinkChicken, "Comic Sans MS", "Comic Sans", "Chalkboard SE", "Comic Neue", cursive; }
+body { margin: 0; background-color: #000000; background-image: url(https://i.pinimg.com/736x/60/4a/95/604a95e23cbdd2fb8bb467ad34c4ecb1.jpg); font-size:24px; font-family: PinkChicken, "Comic Sans MS", "Comic Sans", "Chalkboard SE", "Comic Neue", cursive; }
 a { text-decoration:none; color:#9e7f7e; }
 a:hover { color: black; }
 img { box-shadow: 0px 0px 12px #9e7f7e; }
