@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Monster;
+    src: url('Monster.ttf');
+}
+@font-face {
+    font-family: Undertale;
+    src: url('Undertale.ttf');
+}
+body {
+	background-color : black;
+}
+h1 {
+	color : white;
+	font-size : 300%;
+	background : #3A78B6;
+	text-align : center;
+	border-radius: 0.3em;
+	font-family : Monster;
+	width : 190vh;
+	margin-left: auto;
+    margin-right: auto;
+}
+h2 {
+	color : black;
+	font-size : 150%;
+	background : #B1D4F6;
+	text-align : center;
+	border-radius: 0.3em;
+	font-family : Monster;
+	width : 170vh;
+	margin-left: auto;
+    margin-right: auto;
+}
+p {
+	color : white;
+	font-family : Undertale;
+	font-size: 24px;
+	text-align : center;
+}
+div {
+	color : white;
+	font-family : Undertale;
+	font-size: 24px;
+	text-align : center;
+}
