@@ -1,0 +1,20 @@
+@font-face {
+    font-family: Misaki;
+    src: url('../font/Misaki.ttf');
+}
+@font-face {
+    font-family: Hirakaku;
+    src: url('../font/Hirakaku.otf');
+}
+body {
+margin: 0;
+font-size: 24px;
+font-family: Misaki, "Comic Sans MS", "Comic Sans", "Chalkboard SE", "Comic Neue", cursive;
+}
+a {
+    text-decoration:none;
+    color:	#000000;
+}
+a:hover {
+    color: white;
+}
